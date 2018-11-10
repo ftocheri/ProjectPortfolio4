@@ -15,10 +15,28 @@
 		#navigation {
 			background-color: #9A9FB7;
 		}
+		.jumbotron {
+			background-color: rgba(94, 202, 255);
+		}
 		.fList {
-			padding: 20px;
+			padding: 50px;
 			margin-top: 10px;
-			margin-bottom: 10px;
+			margin-bottom: 20px;
+		}
+		.fList a {
+			color: black;
+		}
+		.searchBox {
+			padding: 10px;
+			margin-bottom: 20px;
+			margin-top: 10px;
+		}
+		.recentPosts {
+			padding: 10px;
+		}
+		.rText {
+			margin-bottom: 0px;
+			padding: 5px;
 		}
 	</style>
 
@@ -61,7 +79,7 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 				<div class="jumbotron searchBox">
-					<div class="input-group mb-3">
+					<div class="input-group">
 						<input type="text" class="form-control" placeholder="Search" aria-label="Search term">
 						<div class="btn-group">
   							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
@@ -79,10 +97,19 @@
 						</div>
 					</div>
 				</div>
+				<div class="jumbotron recentPosts">
+					<h2 class="rHeader">Recent Posts</h2>
+					<p class="border rText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dui id risus...</p>
+					<p class="text-right"><a href="#">View...</a></p>
+					<p class="border rText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dui id risus...</p>
+					<p class="text-right"><a href="#">View...</a></p>
+					<p class="border rText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dui id risus...</p>
+					<p class="text-right"><a href="#">View...</a></p>
+				</div>
 			</div>
 			<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
 				<div class="jumbotron fList">
-					<a href="#" class="display-4">PC Forum</a>
+					<p><a href="#" class="display-4">PC Forum</a></p>
 				</div>
 				<div class="jumbotron fList">
 					<a href="#" class="display-4">Console Forum</a>
