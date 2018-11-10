@@ -63,13 +63,17 @@
 				<div class="jumbotron searchBox">
 					<div class="input-group mb-3">
 						<input type="text" class="form-control" placeholder="Search" aria-label="Search term">
-						<button class="btn dropdown-toggle input-group-append" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</button>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">PC</a></li>
-							<li><a class="dropdown-item" href="#">Console</a></li>
-							<li><a class="dropdown-item" href="#">Portables</a></li>
-							<li><a class="dropdown-item" href="#">New Release</a></li>
-						</ul>
+						<div class="btn-group">
+  							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    						<span class="selection">Category</span><span class="caret"></span>
+  							</button>
+  							<ul class="dropdown-menu" role="menu">
+    							<li><a class="nav-link" href="#">PC</a></li>
+   								<li><a class="nav-link" href="#">Console</a></li>
+    							<li><a class="nav-link" href="#">Portable</a></li>
+    							<li><a class="nav-link" href="#">New Release</a></li>
+  							</ul>
+						</div>
 						<div class="input-group-append">
 							<span class="input-group-text"><span class="oi oi-magnifying-glass"></span></span>
 						</div>
