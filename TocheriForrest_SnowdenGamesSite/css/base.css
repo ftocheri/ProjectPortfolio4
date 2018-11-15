@@ -1,0 +1,43 @@
+html {
+	font-family: 'Fjalla One', sans-serif;
+	line-height: 1.6;
+	font-size: 16px;
+}
+body {
+	background-color: #4C8FA2;
+	padding-top: 75px;
+}
+.jumbotron {
+	border-radius: 10px;
+}
+#navigation {
+	background-color: #4C8FA2;
+}
+.navbar .nav-item{
+	text-align: center;
+}
+.nav-link {
+	color: black;
+	transition: transform .25s ease-in-out;
+}
+.nav-link:hover {
+	transform: scale(1.3);
+}
+.navbar-toggler {
+	transition: transform .25s ease-in-out;
+}
+.navbar-toggler:hover {
+	transform: scale(1.2);
+}
+.btn {
+    background-color: #77B4C5;
+}
+.btn:hover {
+	background-color: #4C8FA2;
+}
+footer {
+	margin-top: 50px;
+}
+footer a {
+	color:black;
+}

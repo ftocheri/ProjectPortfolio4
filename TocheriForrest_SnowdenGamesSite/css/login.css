@@ -1,0 +1,13 @@
+.card {
+	background-color: #DBF0F6;
+	border-radius: 10px;
+}
+.form-control {
+	margin-bottom: 10px;
+}
+.btn {
+	transition: background .5s ease-in-out, transform .25s ease-in-out;
+}
+.btn:hover {
+	transform: scale(1.05);
+}

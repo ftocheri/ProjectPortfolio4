@@ -1,0 +1,21 @@
+#latest {
+	background-color: #77B4C5;
+	padding: 20px;
+}
+.rBlog {
+	background-color: #77B4C5;
+	padding: 20px;
+}
+.blogImage {
+	padding: 10px;
+}
+.btn {
+	border: solid #DBF0F6 1px;
+	color: black;
+	transition: background .3s ease-in, transform .25s ease-in-out;
+}
+.btn:hover {
+	background-color: #4C8FA2;
+	color: black;
+	transform: scale(1.1);
+}

@@ -1,0 +1,12 @@
+.formHolder {
+    padding: 40px;
+    background-color: #DBF0F6;
+}
+.sendButton {
+    background-color: #77B4C5;
+    transition: background .25s ease-in, transform .5s ease-in-out;
+}
+.sendButton:hover {
+    background-color: #4C8FA2;
+    transform: scale(1.2);
+}
