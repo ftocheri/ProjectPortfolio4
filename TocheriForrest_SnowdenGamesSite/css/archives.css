@@ -2,9 +2,11 @@
 	background-color: #4C8FA2;
 	border: 10px solid #77B4C5;
 	border-radius: 10px;
+	transition: background .25s ease-in, transform .25s ease-in-out;
 }
 .dropdownMenuButton:hover {
 	background-color: #77B4C5;
+	transform: scale(1.1);
 }
 .archiveFollowing {
 	margin-top: 20px;
@@ -18,4 +20,7 @@
 }
 .input-group .btn {
 	border: 1px solid #DBF0F6;
+}
+.searchGlass {
+	background-color: #77B4C5;
 }
