@@ -24,3 +24,6 @@
 .searchGlass {
 	background-color: #77B4C5;
 }
+.searchGlass:hover {
+	background-color: #4C8FA2;
+}
